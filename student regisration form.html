@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        body{
+            background-color: rgb(107, 107, 245);
+            }
+            table {
+                border-style: solid;
+                border-collapse: collapse;
+            }
+            th,td{
+                border-style: solid;
+            }
+    </style>
+</head>
+<body>
+<h1><ins>STUDENT REGISTRATION FORM</ins></h1>
+
+    <form style="text-align: justify;">
+          <label>FIRST NAME:</label>
+          <input type="text"> (max 30 character a-z and A-Z) <br><br>
+
+          <label>LAST NAME:</label>
+          <input type="text"> (max 30 character a-z and A-Z) <br><br>
+
+          <label>DATE OF BIRTH:</label>
+          <input type="datetime-local"><br><br>
+
+          <label>EMAIL ID:</label>
+          <input type="email"><br><br>
+
+          <label>MOBILE NUMBER:</label>
+          <input type="tel"> (10 Digit Number) <br><br>
+
+          <label>GENDER:</label>
+          <input type="radio" id="rad1" name="Gender">
+          <label for="rad1">Male</label>
+          <input type="radio" id="rad2" name="Gender">
+          <label for="rad2">Female</label><br><br>
+
+          <label>ADDRESS:</label><br>
+          <textarea cols="20" rows="4"></textarea><br><br>
+
+          <label>CITY:</label>
+          <input type="text"> (max 30 character a-z and A-Z) <br><BR>
+
+          <label>PIN CODE:</label>
+          <input type="text"> (6 Digit number)<br><br>
+
+          <label>STATE:</label>
+          <input type="text"> (max 30 character a-z and A-Z) <br><BR>
+
+          <label>COUNTRY:</label>
+          <input type="text"><br><br>
+
+          <label>HOBBIES:</label>&nbsp;&nbsp;
+          <label>Drawing</label>
+          <input type="checkbox">
+          <Label>Singing</Label>
+          <input type="checkbox">
+          <label>Dancing</label>
+          <input type="checkbox">
+          <label>Sketching</label>
+          <input type="checkbox"> <br>
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<label>Others</label>
+          <input type="checkbox">
+          <input type="text"><br><br>
+
+          <label>Qualification &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SI.NO.Examination &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Board&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Percentage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Year of Passing</label>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class X &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text">&nbsp;<input type="text">&nbsp;<input type="text"></p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class XII &nbsp;&nbsp;&nbsp;<input type="text">&nbsp;<input type="text">&nbsp;<input type="text"></p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Graduation&nbsp;<input type="text">&nbsp;<input type="text">&nbsp;<input type="text"></p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Masters&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text">&nbsp;<input type="text">&nbsp;<input type="text"></p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(10 char max)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(upto 2 decimal)</p>
+          <label> COURSES <br>APPLIED FOR:</label>&nbsp;&nbsp;
+          <label for="rad1">BCA</label>
+          <input type="radio" id="rad1" name="course">
+          <label for="rad2">B.com</label>
+          <input type="radio" id="rad2" name="course">
+          <label for="rad3">B.sc</label>
+          <input type="radio" id="rad3" name="course">
+          <label for="rad4">B.A</label>
+          <input type="radio" id="rad4" name="course"><br><br>
+          
+          
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="button">Submit</button>&nbsp;&nbsp;<button type="button">Reset</button>
+          
+          
+
+        </form>
+    </body>
+</html>

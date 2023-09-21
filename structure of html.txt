@@ -1,0 +1,12 @@
+<!DOCTYPE Html>
+<html lang="en">
+<Head>
+       <Meta Charset="UTF-8">
+       <Meta Name="Viewport"  Content="Width=Divice-Width, intial scale=1.0">
+       <Title>Structure of Html </Title>
+</Head>
+<Body>
+       <H1>Main Heading Goes Here</h1>
+       <P>Paragraph Content Goes Here<p>
+</Body>
+</Html>
